@@ -1,0 +1,209 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/clicporn-downloader",
+  "serply_link": "https://serp.ly/clicporn-downloader",
+  "app_name": "Clicporn Video Downloader",
+  "short_description": "Download & Save Clicporn Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Clicporn Downloader is a browser extension that helps you save videos from supported ClicPorn pages directly through your browser. Instead of switching to separate downloader sites or desktop applications, this extension lets you detect and download media using an in-page button, the extension popup, or a right-click context menu. Open a supported video page, start playback if needed, and use the available controls to save the file locally.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/clicporn-downloader-fullscreen-01-0b4538fe19.webp",
+    "https://apps.serp.co/media/optimized-products/clicporn-downloader-fullscreen-02-a4d036d753.webp",
+    "https://apps.serp.co/media/optimized-products/clicporn-downloader-fullscreen-03-424eb57ba6.webp",
+    "https://apps.serp.co/media/optimized-products/clicporn-downloader-fullscreen-04-93b169ed0c.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "How do I download a ClicPorn video?",
+      "answer": "Open a supported ClicPorn page, press play if needed, then use the player download button, extension popup, or right-click menu."
+    },
+    {
+      "question": "What formats can it work with?",
+      "answer": "The extension supports direct media URLs and HLS-style handling when the page exposes usable sources."
+    },
+    {
+      "question": "Do I get quality choices?",
+      "answer": "If the page exposes multiple candidates or useful quality labels, the extension can present more than one option."
+    },
+    {
+      "question": "Where do files go?",
+      "answer": "Files are saved to a ClicPorn download folder in your browser's default download location."
+    },
+    {
+      "question": "Do I need to play the video first?",
+      "answer": "Often yes. Some pages do not expose the final media source until playback or player scripts begin running."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Download workflow stays inside your browser — no separate tool required",
+    "Player button appears on the video page for quick access",
+    "Popup and context-menu entry points give you multiple ways to start a download",
+    "Supports direct media URLs and HLS-style streams when the page exposes them",
+    "Files are organized in a dedicated ClicPorn download folder",
+    "In-page download button on the video player area",
+    "Extension popup with detected media options",
+    "Right-click context menu for page and video contexts",
+    "Direct media URL and HLS-style stream support when exposed",
+    "Shared download manager with progress indicators",
+    "OTP email activation for secure access",
+    "3 free trial downloads before paid licensing",
+    "Organized saving to a ClicPorn download folder"
+  ],
+  "content": {
+    "why": [
+      "Video pages on ClicPorn often hide the final media URL behind player scripts and dynamic loading. Right-click saving is unreliable on these pages, and generic web downloaders can surface incorrect or broken media links. Users end up copying URLs to third-party sites or installing heavy desktop software just to save a single file.",
+      "Clicporn Downloader keeps the entire workflow inside your browser. The extension is configured to detect exposed media sources on supported ClicPorn pages and pass them through a shared download pipeline. You get a player button, popup controls, and a context menu — all without leaving the page. The result is a simpler way to save videos for offline viewing."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open ClicPorn and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Install Clicporn Downloader from the latest GitHub release.",
+      "Navigate to a supported ClicPorn video page.",
+      "Press play on the video player to initialize the stream.",
+      "Look for the download button that appears on the player area.",
+      "Click the download button or open the extension popup.",
+      "Select the format or quality option you want.",
+      "Confirm the download and wait for the file to process.",
+      "Save the final MP4 file to your computer."
+    ],
+    "supported_formats": [
+      "Input: Direct media URLs and HLS-style streams exposed by supported ClicPorn pages",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "ClicPorn users who want a straightforward browser workflow for offline viewing",
+      "People who prefer button-driven extensions over copy-paste web downloaders",
+      "Users who want multiple ways to trigger a download — popup, button, or menu",
+      "Anyone looking for a lightweight tool that stays inside the browser"
+    ],
+    "use_cases": [
+      "Save a ClicPorn video for offline playback when you do not have internet access",
+      "Use the player-level download button instead of inspecting page source code",
+      "Choose among detected formats when the page exposes more than one media candidate",
+      "Trigger downloads from the extension popup or right-click menu",
+      "Keep files organized in a dedicated ClicPorn download folder"
+    ],
+    "troubleshooting": [
+      "No download button appears on the video page. Make sure you are on a supported ClicPorn video page and that playback has started. Some pages need the player to initialize before media sources are exposed.",
+      "The extension does not detect any media. Try refreshing the page and starting playback again. If the issue persists, check that you are on a supported ClicPorn domain.",
+      "Downloads fail or produce broken files. The page may be using a stream format that is not fully supported. Try a different video page or contact support with the specific URL.",
+      "The popup shows no options. Verify that the extension is installed correctly and that you have activated your account with the OTP email verification.",
+      "I cannot find my downloaded files. Files are saved to the default browser download location inside a ClicPorn folder. Check your browser download settings for the exact path."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported ClicPorn page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Available formats depend on what ClicPorn exposes on a given video page",
+      "Press play first when needed to initialize the media stream"
+    ],
+    "about": [
+      "ClicPorn is a video hosting platform that offers a wide variety of adult content. Clicporn Downloader helps users save videos from supported pages directly through their browser for offline viewing."
+    ]
+  },
+  "serpx_link": "https://serpx.link/clicporn-downloader",
+  "github_topics": [
+    "clicporn-download",
+    "clicporn-downloader",
+    "clicporn-video-downloader",
+    "clicporn-video-downloader-online",
+    "clicporn-video-downloader-mac",
+    "clicporn-video-downloader-window",
+    "clicporn-video-downloader-free",
+    "clicporn-video-downloader-extension",
+    "clicporn-video-downloader-app",
+    "clicporn-video-downloader-chrome",
+    "clicporn-video-downloader-from-url",
+    "how-to-download-clicporn-videos",
+    "how-to-download-clicporn-videos-mac",
+    "how-to-download-clicporn-videos-windows",
+    "how-to-download-clicporn-videos-online",
+    "how-to-download-clicporn-videos-free",
+    "how-to-download-from-clicporn",
+    "how-to-download-videos-from-clicporn",
+    "download-clicporn-videos",
+    "clicporn-video-tutorial",
+    "save-clicporn-videos",
+    "clicporn-video-content-saver",
+    "how-to-download-clicporn-videos-for-free"
+  ],
+  "hashtags": [
+    "#ClicpornDownload",
+    "#ClicpornDownloader",
+    "#ClicpornVideoDownloader",
+    "#ClicpornVideoDownloaderOnline",
+    "#ClicpornVideoDownloaderMac",
+    "#ClicpornVideoDownloaderWindow",
+    "#ClicpornVideoDownloaderFree",
+    "#ClicpornVideoDownloaderExtension",
+    "#ClicpornVideoDownloaderApp",
+    "#ClicpornVideoDownloaderChrome",
+    "#ClicpornVideoDownloaderFromURL",
+    "#HowToDownloadClicpornVideos",
+    "#HowToDownloadClicpornVideosMac",
+    "#HowToDownloadClicpornVideosWindows",
+    "#HowToDownloadClicpornVideosOnline",
+    "#HowToDownloadClicpornVideosFree",
+    "#HowToDownloadFromClicporn",
+    "#HowToDownloadVideosFromClicporn",
+    "#DownloadClicpornVideos",
+    "#ClicpornVideoTutorial",
+    "#SaveClicpornVideos",
+    "#ClicpornVideoContentSaver",
+    "#HowToDownloadClicpornVideosForFree"
+  ],
+  "youtube_tags": [
+    "Clicporn Download",
+    "Clicporn Downloader",
+    "Clicporn Video Downloader",
+    "Clicporn Video Downloader Online",
+    "Clicporn Video Downloader Mac",
+    "Clicporn Video Downloader Window",
+    "Clicporn Video Downloader Free",
+    "Clicporn Video Downloader Extension",
+    "Clicporn Video Downloader App",
+    "Clicporn Video Downloader Chrome",
+    "Clicporn Video Downloader From URL",
+    "How To Download Clicporn Videos",
+    "How To Download Clicporn Videos Mac",
+    "How To Download Clicporn Videos Windows",
+    "How To Download Clicporn Videos Online",
+    "How To Download Clicporn Videos Free",
+    "How To Download From Clicporn",
+    "How To Download Videos From Clicporn",
+    "Download Clicporn Videos",
+    "Clicporn Video Tutorial",
+    "Save Clicporn Videos",
+    "Clicporn Video Content Saver",
+    "How To Download Clicporn Videos For Free"
+  ]
+}
